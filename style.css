@@ -1,0 +1,82 @@
+body {
+    background-color: #ccc;
+}
+
+.firstcontainer {
+    height: 500px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.companycontainer {
+    height: 800px;
+}
+
+.firstcontainer input,
+.companycontainer input,
+.jobseekerContainer input,
+.jobseekerContainer select {
+    height: 60px;
+    width: 80%;
+    margin: 25px;
+}
+
+.jobseekerContainer {
+    height: 1200px;
+}
+
+.companyprofilecontainer {
+    height: 1020px;
+}
+
+.CompanyLogo {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin: 50px;
+
+}
+
+.secondcpcontainer,
+.secondjobpcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.profileFirstContainer,
+.jobSeekerprofileFirstContainer {
+    margin-top: 50px;
+    background-color: #ccc;
+    width: 800px;
+    box-shadow: 35px 26px 9px 11px #ccc;
+    -webkit-box-shadow: 35px 26px 9px 11px rgba(219, 204, 204, 0.75);
+    -moz-box-shadow: 35px 26px 9px 11px rgba(219, 204, 204, 0.75);
+
+}
+
+.profileFirstContainer,
+h1,
+.JobSeakerprofileSecondContainer h1 {
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.profileFirstContainer,
+p,
+.JobSeakerprofileSecondContainer p {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.jobseakerprofilecontainer{
+    height: 1400px;
+}
